@@ -1,0 +1,33 @@
+.cover{
+    height: 100vh;
+    background-image: url("https://github.com/islambehluli/lab-css-recipes-clone/blob/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg?raw=true");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.part1{
+    padding: 0 10%;
+
+}  
+ul{
+    list-style-type :none;
+    padding-left: 0;
+}
+ul li::before{
+    content:"-"
+}
+.cookTime img{
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+}
+.line{
+    border: 1px solid;
+    margin: 2%;
+}
+.ingredients img{
+    margin: 0 auto;
+    width: 300px;
+    display: block;
+}
